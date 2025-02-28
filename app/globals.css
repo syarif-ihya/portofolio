@@ -1,0 +1,69 @@
+/* app/globals */
+
+@import "tailwindcss";
+
+:root {
+  --foreground-rgb: 237, 237, 237;
+  --background-start-rgb: 20, 20, 30;
+  --background-end-rgb: 10, 10, 20;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+  min-height: 100vh;
+  font-family: var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+code {
+  font-family: var(--font-geist-mono), monospace;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Enhanced gradient text animation */
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  animation: gradient-shift 5s ease infinite;
+  background-size: 200% 200%;
+  transition: transform 0.3s ease;
+}
+
+.animate-gradient:hover {
+  transform: scale(1.02);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.95rem;
+  }
+  
+  .animate-gradient {
+    animation-duration: 4s;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 0.9rem;
+  }
+}
