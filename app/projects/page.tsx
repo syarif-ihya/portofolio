@@ -1,7 +1,5 @@
 // app/projects/page.tsx
 
-import Link from 'next/link';
-
 export default function Projects() {
   const projects = [
     {
@@ -34,8 +32,8 @@ export default function Projects() {
     {
       id: "timevault",
       title: "TimeVault",
-      description: "Aplikasi Next.js yang mengubah manajemen waktu menjadi permainan ekonomi, di mana pengguna 'menginvestasikan' waktu mereka ke dalam berbagai aktivitas.",
-      longDescription: "TimeVault menggunakan konsep ekonomi untuk membantu pengguna memahami bagaimana mereka menggunakan waktu mereka. Pengguna 'menginvestasikan' waktu ke dalam aktivitas seperti belajar, olahraga, atau proyek kreatif. Aplikasi ini kemudian menghitung dan menampilkan 'ROI' dari investasi waktu tersebut, baik dalam bentuk produktivitas, kesehatan, atau kebahagiaan, menggunakan metrik yang disesuaikan oleh pengguna.",
+      description: "Aplikasi Next.js yang mengubah manajemen waktu menjadi permainan ekonomi, di mana pengguna menginvestasikan waktu mereka ke dalam berbagai aktivitas.",
+      longDescription: "TimeVault menggunakan konsep ekonomi untuk membantu pengguna memahami bagaimana mereka menggunakan waktu mereka. Pengguna menginvestasikan waktu ke dalam aktivitas seperti belajar, olahraga, atau proyek kreatif. Aplikasi ini kemudian menghitung dan menampilkan ROI dari investasi waktu tersebut, baik dalam bentuk produktivitas, kesehatan, atau kebahagiaan, menggunakan metrik yang disesuaikan oleh pengguna.",
       technologies: ["Next.js", "Chart.js", "Prisma", "PostgreSQL", "TypeScript"],
       gradient: "from-yellow-500 to-orange-500",
       link: "#"

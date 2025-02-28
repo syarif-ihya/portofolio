@@ -1,6 +1,5 @@
 // app/page.tsx
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
 
