@@ -135,7 +135,7 @@ export default function Home() {
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
-                <span>AI Integration</span>
+                <span>HTML / CSS</span>
               </li>
               <li className="flex items-center">
                 <span className="mr-2">•</span>
