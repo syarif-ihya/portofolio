@@ -51,14 +51,14 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-6 text-center">About Me</h2>
         <div className="max-w-3xl mx-auto bg-gray-800 p-6 rounded-lg shadow-md">
           <p className="text-gray-300 leading-relaxed">
-            Hi there! I'm a developer with a passion for creating engaging mobile and web experiences 
+            Hi there! I&apos;m a developer with a passion for creating engaging mobile and web experiences 
             that combine functionality with intuitive design. My journey in technology started with
             a curiosity about how digital experiences can enhance our daily lives.
           </p>
           <p className="text-gray-300 leading-relaxed mt-4">
             I specialize in React Native for mobile development and Next.js for web applications,
             focusing on creating applications that are not only functional but also enjoyable to use.
-            I'm particularly interested in gamification elements and AI-powered features that can make
+            I&apos;m particularly interested in gamification elements and AI-powered features that can make
             digital experiences more personalized and engaging.
           </p>
         </div>

@@ -8,7 +8,7 @@ export default function Contact() {
       <section className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">Get In Touch</h1>
         <p className="text-gray-300 max-w-3xl mx-auto">
-          I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+          I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
           Feel free to reach out through any of the following channels.
         </p>
       </section>
@@ -155,7 +155,7 @@ export default function Contact() {
             
             <div>
               <h3 className="text-lg font-medium text-blue-400 mb-2">What is your typical project timeline?</h3>
-              <p className="text-gray-300">Project timelines vary depending on complexity and scope. A simple website might take 2-3 weeks, while more complex applications could take 1-3 months. I'll provide a detailed timeline during our initial consultation.</p>
+              <p className="text-gray-300">Project timelines vary depending on complexity and scope. A simple website might take 2-3 weeks, while more complex applications could take 1-3 months. I&apos;ll provide a detailed timeline during our initial consultation.</p>
             </div>
             
             <div>
@@ -165,7 +165,7 @@ export default function Contact() {
             
             <div>
               <h3 className="text-lg font-medium text-blue-400 mb-2">How do we get started on a project together?</h3>
-              <p className="text-gray-300">Simply reach out through the contact form or via email. We'll schedule an initial consultation to discuss your project requirements, timeline, and budget. Once we're aligned, I'll provide a proposal and we can move forward from there.</p>
+              <p className="text-gray-300">Simply reach out through the contact form or via email. We&apos;ll schedule an initial consultation to discuss your project requirements, timeline, and budget. Once we&apos;re aligned, I&apos;ll provide a proposal and we can move forward from there.</p>
             </div>
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function Contact() {
       <section className="text-center bg-gradient-to-r from-blue-600 to-purple-600 p-12 rounded-xl shadow-lg">
         <h2 className="text-3xl font-bold mb-4">Ready to start your next project?</h2>
         <p className="text-white max-w-2xl mx-auto mb-6">
-          Let's collaborate to bring your ideas to life. I'm excited to hear about your vision and help you achieve your goals.
+          Let&apos;s collaborate to bring your ideas to life. I&apos;m excited to hear about your vision and help you achieve your goals.
         </p>
         <button className="px-8 py-3 bg-white text-blue-600 font-medium rounded-lg hover:bg-gray-100 transition-colors">
           Get Started Today

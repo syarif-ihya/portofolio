@@ -56,7 +56,7 @@ export default function Projects() {
       <section className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">My Projects</h1>
         <p className="text-gray-300 max-w-3xl mx-auto">
-          Here are some of the projects I've worked on, focusing on React Native mobile development 
+          Here are some of the projects I&apos;ve worked on, focusing on React Native mobile development 
           and Next.js web applications. Each project represents my passion for creating engaging, 
           user-centered experiences.
         </p>
